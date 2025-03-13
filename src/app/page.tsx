@@ -1,14 +1,11 @@
+import { Header } from "@/components/header";
+import { MembershipBlock } from "@/components/membershipBlock";
 import { SearchButton } from "@/components/serachButton";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div>
-      <header className="flex justify-between bg-amber-50 text-black p-6">
-        <h1 className="text-xl">Logo</h1>
-        <SearchButton/>
-      </header>
-      
       
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start mt-1000">
         <Image
