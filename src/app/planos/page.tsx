@@ -12,7 +12,7 @@ export default function Planos() {
                 title="Plano Maromba"
                 text="lorem ipusim si dolor a mete no penis"
                 topics={[
-                    '1 mes de fatura',
+                    '1 mês de fatura',
                     'maromba betinha']
                 }
                 action={async() => {
